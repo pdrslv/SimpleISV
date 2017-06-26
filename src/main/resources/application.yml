@@ -1,0 +1,15 @@
+logging.level:
+      root: INFO
+
+security:
+  basic.enabled: false
+  sessions: stateless
+  user:
+    name: user
+    password: changeit
+
+appdirect.product.integration:
+  oauth:
+    consumer:
+      key: appdirdemo-prod-168304
+      secret: 4MSedvDVezi46tPy
